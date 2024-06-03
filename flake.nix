@@ -35,7 +35,7 @@
       thorium-avx2 = let
         pkgs = import nixpkgs {system = "x86_64-linux";};
         name = "thorium-avx2";
-        version = "124.0.6367.218 - 56";
+        version = "124.0.6367.218 - 59";
         src = pkgs.fetchurl {
           url = "https://github.com/Alex313031/thorium/releases/download/M124.0.6367.218/thorium_browser_124.0.6367.218_AVX2.AppImage";
           sha256 = "sha256-HANrDUv/oFW2uWLSYilTCzdnZDY1yuqhLo/jRQil3QA=";
@@ -55,7 +55,7 @@
       thorium-sse3 = let
         pkgs = import nixpkgs {system = "x86_64-linux";};
         name = "thorium-sse3";
-        version = "124.0.6367.218 - 56";
+        version = "124.0.6367.218 - 59";
         src = pkgs.fetchurl {
           url = "https://github.com/Alex313031/thorium/releases/download/M124.0.6367.218/thorium_browser_124.0.6367.218_SSE3.AppImage";
           sha256 = "sha256-G+Z85w7d7YT/03tqcH1VMJGoenoegcttbxz38u0JWcI=";
